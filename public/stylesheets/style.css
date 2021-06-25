@@ -93,6 +93,48 @@ body {
   background-size: cover;
 }
 
+footer {
+	background: #101113;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: arial;
+  height: auto;
+}
+
+footer ul li{
+  display: inline-block;
+}
+
+.footer_text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+
+.index_content {
+  display: flex;
+  justify-content: center;
+}
+
+.random_button {
+  cursor: grabbing;
+  height: 60px;
+  width: 120px;
+
+  margin: auto;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  display:block;
+
+  background-color: var(--bs-purple);
+}
+
+
 body {
   margin: 0;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
