@@ -152,9 +152,8 @@ footer ul li{
 a.links {
   background-color: slateblue;
   color: whitesmoke;
-  padding: 0.5em 0.5em;
+  padding: 0.3em 0.3em;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 input[type=text], select, textarea {
