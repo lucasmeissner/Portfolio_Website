@@ -119,6 +119,10 @@ footer ul li{
   justify-content: center;
 }
 
+.about_text {
+  text-align: left;
+}
+
 .random_button {
   cursor: grabbing;
   height: 60px;
@@ -131,7 +135,26 @@ footer ul li{
 
   display:block;
 
-  background-color: var(--bs-purple);
+  background-color: royalblue;
+  border-color: seagreen;
+  border-width: 4px;
+  border-radius: 5px;
+}
+
+.portrait {
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  height: 250px;
+  width: 250px;
+}
+
+a.links {
+  background-color: slateblue;
+  color: whitesmoke;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
