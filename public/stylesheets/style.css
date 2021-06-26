@@ -157,6 +157,32 @@ a.links {
   text-transform: uppercase;
 }
 
+input[type=text], select, textarea {
+  width: 95%;
+  border: 3px solid blueviolet;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: inherit;
+}
+
+.contact_content button {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 7px;
+
+  cursor: grabbing;
+
+  background-color: royalblue;
+  border-color: seagreen;
+  border-width: 4px;
+  border-radius: 5px;
+}
+
+.contact_content{
+  text-align: center;
+}
 
 body {
   margin: 0;
